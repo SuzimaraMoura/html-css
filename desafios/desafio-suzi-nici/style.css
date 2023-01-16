@@ -5,13 +5,19 @@
     padding: 0px;
     font-size: 1em;
 }
+body{
+    background-image:url('fundo.webp') ;
+}
 html, body{
     min-height: 100vh;
-    background-color: rgb(23, 21, 21);
+   
 } 
 section{
     padding-top: 50px;
     padding-bottom: 50px;
+    max-width: 600px ;
+    margin: 20px auto;
+    background-color: black;
 } 
 section > p {
     padding: 5px;
